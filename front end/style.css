@@ -6,6 +6,7 @@
     background-color: #fff;
     color: #000;
 }
+
 .dropdown-btn:active{
     background-color: #fff;
     color: #000;
@@ -25,6 +26,7 @@
     right: 20px;
     animation: star infinite 2.6s linear;
 }
+
 #star-2{
     top: 190px;
     left: 0px;
@@ -50,6 +52,7 @@
 .title{
     font-weight: 900;
 }
+
 h1{
     font-size: 64px;
     letter-spacing: -4px;
@@ -59,4 +62,10 @@ h2{
     font-size: 45px;
     letter-spacing: -3px;
 
+}
+
+.container-main {
+    margin-top: 100px;
+    margin-left: 315px;
+    font-weight: 500;
 }

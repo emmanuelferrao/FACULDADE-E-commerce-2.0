@@ -14,12 +14,12 @@
 </head>
 
 <body>
-  <header class="shadow-sm ">
+  <header class="shadow-sm position-fixed top-0 bg-white  w-100 z-3 ">
     <div class="container d-flex justify-content-between align-items-center py-3">
       <img class="logo" src="/front end/assets/logo.png" alt="Logo">
       <nav class="nav d-flex align-items-center gap-3">
         <li class="dropdown">
-          <a class="text-black text-decoration-none dropdown-btn" type="button" data-bs-toggle="dropdown"
+          <a class="text-black text-decoration-none dropdown-btn menu-item" type="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             Feminino
           </a>
@@ -43,7 +43,8 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a class="text-black text-decoration-none " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="text-black text-decoration-none menu-item" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
             Masculino
           </a>
           <ul class="dropdown-menu">
@@ -62,8 +63,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="text-black text-decoration-none nav-link  " type="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
+          <a class="text-black p-0 text-decoration-none nav-link menu-item ">
             Novidades
           </a>
         </li>
@@ -81,53 +81,8 @@
       </div>
     </div>
   </header>
-  <main>
-    <section class="banner w-100 ">
-      <div class="container d-flex align-items-center justify-content-between ">
-        <div>
-          <div>
-            <h1 class="title text-black text-uppercase ">Encontre roupas <br> que casam com <br> seu estilo!</h1>
-            <p>
-              Navegue por nossa diversificada linha de roupas meticulosamente elaboradas, projetadas <br> para realçar sua
-              individualidade e atender ao seu senso de estilo.
-            </p>
-            <a class="btn bg-black text-white rounded-pill fs-6 px-5  btn-lg " href="#" role="button">Comprar agora</a>
-          </div>
-        </div>
-        
-        <div class="position-relative  ">
-          <img src="/front end/assets/casal.png" alt="">
-          <img id="star-1" class="position-absolute" src="/front end/assets/star.png" alt="">
-          <img id="star-2" class="position-absolute" src="/front end/assets/star.png" alt="">
-        </div>
-      </div>
-      <div class="bg-black d-flex align-items-center justify-content-evenly w-100 py-5 ">
-        <div class="container d-flex align-items-center justify-content-between ">
-          <img class="logo-parceira" src="/front end/assets/logos/logo1.png" alt="">
-          <img class="logo-parceira" src="/front end/assets/logos/logo2.png" alt="">
-          <img class="logo-parceira" src="/front end/assets/logos/logo3.png" alt="">
-          <img class="logo-parceira" src="/front end/assets/logos/logo4.png" alt="">
-          <img class="logo-parceira" src="/front end/assets/logos/logo5.png" alt="">
-        </div>
-      </div>
-    </section>
-
-    <section class="container d-flex flex-column gap-5 justify-content-center align-items-center ">
-      <h2 class="title text-black text-uppercase mt-5 ">
-        Novidades
-      </h2>
-      <div class="d-grid">
-        <div class="d-flex flex-column ">
-          <img class="rounded-3 " src="/front end/assets/products/product1.png" alt="">
-          <p>
-            T-shirt with tape details
-          </p>
-          <div>
-            
-          </div>
-        </div>
-      </div>
-    </section>
+  <main class="container-main">
+    <p>HOME T Cart</p>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
