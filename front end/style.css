@@ -81,6 +81,6 @@ main{
     font-weight: 800;
 }
 
-.wrapper {
-    display: grid;
-  }
+.cart {
+    padding-right: 20em;
+}
