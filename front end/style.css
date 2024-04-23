@@ -84,3 +84,24 @@ main{
 .cart {
     padding-right: 20em;
 }
+
+footer{
+    background-color: #F0F0F0;
+    margin-top: 50px;
+}
+
+.newslatter{
+    position: relative;
+    top: -70px;
+}
+
+.breadcrumb{
+    font-size: 12px;
+}
+
+.banner{
+    background-color: #f2f0f1;
+    padding-top: 100px;
+}
+
+
