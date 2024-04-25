@@ -13,75 +13,100 @@
   <link rel="stylesheet" href="/front end/style.css">
 </head>
 
-<body>
-  <header class="shadow-sm position-fixed top-0 bg-white  w-100 z-3 ">
-    <div class="container d-flex justify-content-between align-items-center py-3">
-      <img class="logo" src="/front end/assets/logo.png" alt="Logo">
-      <nav class="nav d-flex align-items-center gap-3">
-        <li class="dropdown">
-          <a class="text-black text-decoration-none dropdown-btn menu-item" type="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Feminino
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Blazer</a></li>
-            <li><a class="dropdown-item" href="#">Blusa</a></li>
-            <li><a class="dropdown-item" href="#">Calça</a></li>
-            <li><a class="dropdown-item" href="#">Calça jeans</a></li>
-            <li><a class="dropdown-item" href="#">Camisa</a></li>
-            <li><a class="dropdown-item" href="#">Camiseta</a></li>
-            <li><a class="dropdown-item" href="#">Casaco e jaqueta</a></li>
-            <li><a class="dropdown-item" href="#">Jeans</a></li>
-            <li><a class="dropdown-item" href="#">Macacão</a></li>
-            <li><a class="dropdown-item" href="#">Moletom</a></li>
-            <li><a class="dropdown-item" href="#">Regata</a></li>
-            <li><a class="dropdown-item" href="#">Saia</a></li>
-            <li><a class="dropdown-item" href="#">Short e bermuda</a></li>
-            <li><a class="dropdown-item" href="#">Suéter e cardigan</a></li>
-            <li><a class="dropdown-item" href="#">Vestido</a></li>
-            <li><a class="dropdown-item fw-semibold " href="#">Ver todos</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="text-black text-decoration-none menu-item" type="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Masculino
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Calça</a></li>
-            <li><a class="dropdown-item" href="#">Calça jeans</a></li>
-            <li><a class="dropdown-item" href="#">Camisa</a></li>
-            <li><a class="dropdown-item" href="#">Camiseta</a></li>
-            <li><a class="dropdown-item" href="#">Casaco e jaqueta</a></li>
-            <li><a class="dropdown-item" href="#">Jeans</a></li>
-            <li><a class="dropdown-item" href="#">Moletom</a></li>
-            <li><a class="dropdown-item" href="#">Polo</a></li>
-            <li><a class="dropdown-item" href="#">Regata</a></li>
-            <li><a class="dropdown-item" href="#">Short e bermuda</a></li>
-            <li><a class="dropdown-item" href="#">Suéter e cardigan</a></li>
-            <li><a class="dropdown-item fw-semibold " href="#">Ver todos</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="text-black p-0 text-decoration-none nav-link menu-item ">
-            Novidades
-          </a>
-        </li>
-      </nav>
-      <form class="bg-opacity-10 bg-black d-flex align-items-center justify-content-between rounded-pill   "
-        method="get" action="">
-        <button type="submit" class="btn">
-          <i class="fa fa-search text-secondary " aria-hidden="true"></i>
+<body class="d-flex flex-column">
+  <header class="shadow-sm position-fixed top-0 bg-white w-100 z-3">
+    <nav class="container navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./assets/logo.png" alt="Logo" />
+        </a>
+        <button class="border-0 navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <input class="border-0 bg-transparent search" type="text" placeholder="Pesquisar por produto...">
-      </form>
-      <div class="btns d-flex gap-3">
-        <img class="" src="/front end/assets/cart.png" alt="">
-        <img src="/front end/assets/user.png" alt="">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown me-2">
+              <a class="text-black text-decoration-none dropdown-btn menu-item" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Feminino
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blazer</a></li>
+                <li><a class="dropdown-item" href="#">Blusa</a></li>
+                <li><a class="dropdown-item" href="#">Calça</a></li>
+                <li><a class="dropdown-item" href="#">Calça jeans</a></li>
+                <li><a class="dropdown-item" href="#">Camisa</a></li>
+                <li><a class="dropdown-item" href="#">Camiseta</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Casaco e jaqueta</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Jeans</a></li>
+                <li><a class="dropdown-item" href="#">Macacão</a></li>
+                <li><a class="dropdown-item" href="#">Moletom</a></li>
+                <li><a class="dropdown-item" href="#">Regata</a></li>
+                <li><a class="dropdown-item" href="#">Saia</a></li>
+                <li><a class="dropdown-item" href="#">Short e bermuda</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Suéter e cardigan</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Vestido</a></li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Ver todos</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown me-2">
+              <a class="text-black text-decoration-none menu-item" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Masculino
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Calça</a></li>
+                <li><a class="dropdown-item" href="#">Calça jeans</a></li>
+                <li><a class="dropdown-item" href="#">Camisa</a></li>
+                <li><a class="dropdown-item" href="#">Camiseta</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Casaco e jaqueta</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Jeans</a></li>
+                <li><a class="dropdown-item" href="#">Moletom</a></li>
+                <li><a class="dropdown-item" href="#">Polo</a></li>
+                <li><a class="dropdown-item" href="#">Regata</a></li>
+                <li><a class="dropdown-item" href="#">Short e bermuda</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Suéter e cardigan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item fw-semibold" href="#">Ver todos</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item me-2">
+              <a class="text-black p-0 text-decoration-none nav-link menu-item">
+                Novidades
+              </a>
+            </li>
+          </ul>
+          <form
+            class="form-search bg-black text-white d-flex align-items-center justify-content-start rounded-pill mb-lg-0  mb-2 "
+            method="get" action="">
+            <button type="submit" class="btn">
+              <i class="fa fa-search text-white" aria-hidden="true"></i>
+            </button>
+            <input class="border-0 bg-transparent search text-white" type="text"
+              placeholder="Pesquisar por produto..." />
+          </form>
+          <div class="btns d-flex gap-3">
+            <img class="icone" src="/front end/assets/cart.png" alt="" />
+            <img class="icone" src="/front end/assets/user.png" alt="" />
+          </div>
+        </div>
       </div>
-    </div>
+    </nav>
   </header>
-  <main>
+  <main class="mt-5">
     <p>HOME > CART</p>
 
     <section class="cart" class="h-100 h-custom" style="background-color: #fff;">
